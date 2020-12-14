@@ -98,7 +98,7 @@ public class SearchFragment extends Fragment {
         suggestions.clear();
         String str = String.valueOf(s);
         for (RecipeModel m:users) {
-            if (m.getRecipe().toLowerCase().contains(str.toLowerCase()))
+            if (m.getRecipename().toLowerCase().contains(str.toLowerCase()))
             {
                 suggestions.add(m);
             }
