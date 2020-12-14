@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RecipeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:id="@+id/llTool"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTitle"
+            android:text="Dish Name"
+            android:fontFamily="@font/bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/llTool">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:id="@+id/txtDishName"
+                    android:textSize="18dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:fontFamily="@font/bold"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:gravity="end"
+                    android:textAlignment="textEnd"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:id="@+id/txtDuration"
+                    android:fontFamily="@font/bold"
+                    android:text="Duration : 50 min"
+                    android:textColor="@color/teal_200"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/imgDish"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Recipe"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/bold"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtRecipe"
+                android:textAlignment="gravity"
+                android:textColor="@color/tot"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comments"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/bold"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:dividerHeight="5dp"
+                    android:nestedScrollingEnabled="false"
+                    android:divider="@android:color/transparent"
+                    android:id="@+id/list_of_comments"
+                    android:layout_marginBottom="16dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/activity_comment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:src="@drawable/ic_baseline_send_24"
+                    android:id="@+id/fab"
+                    android:tint="@android:color/white"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    app:fabSize="mini" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Comment Here"
+                    android:padding="5dp"
+                    android:background="@android:color/transparent"
+                    android:id="@+id/input"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

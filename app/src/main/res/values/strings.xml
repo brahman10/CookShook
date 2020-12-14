@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Cook Shook</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="cuisines">
+        <item>Chinese</item>
+        <item>North Indian</item>
+        <item>South Indian</item>
+        <item>Italian</item>
+        <item>Gujarati</item>
+        <item>Punjabi</item>
+        <item>Rajasthani</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="cuisines_image">
+        <item>https://firebasestorage.googleapis.com/v0/b/cookshook.appspot.com/o/chinese.jpeg?alt=media&amp;token=71b80dfb-eac3-4a7b-b8c5-c33051a0bc60</item>
+        <item>https://firebasestorage.googleapis.com/v0/b/cookshook.appspot.com/o/north.jpeg?alt=media&amp;token=55742973-5200-4624-b577-abb7ec0f57ce</item>
+        <item>https://firebasestorage.googleapis.com/v0/b/cookshook.appspot.com/o/south.jpeg?alt=media&amp;token=c9583c46-c7ab-4dbd-bb51-1b03e1cf02b6</item>
+        <item>https://firebasestorage.googleapis.com/v0/b/cookshook.appspot.com/o/italian.jpeg?alt=media&amp;token=468f59d8-2d4b-4e59-b7cc-adad557c006e</item>
+        <item>https://firebasestorage.googleapis.com/v0/b/cookshook.appspot.com/o/gujrati.jpeg?alt=media&amp;token=738717de-800c-4e15-b561-addaf8f70bcb</item>
+        <item>https://firebasestorage.googleapis.com/v0/b/cookshook.appspot.com/o/punjabi.jpeg?alt=media&amp;token=34e26d95-7636-4f2b-8c2b-54b31d8f40a2</item>
+        <item>https://firebasestorage.googleapis.com/v0/b/cookshook.appspot.com/o/rajasthan.jpeg?alt=media&amp;token=5b1cdc95-dcbf-4d52-933c-96b3b53952eb</item>
+        <item>https://firebasestorage.googleapis.com/v0/b/cookshook.appspot.com/o/others.jpeg?alt=media&amp;token=687be6ec-79a5-44d4-9159-e47fada47659</item>
+    </string-array>
+</resources>

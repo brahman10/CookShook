@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "199522142224",
+    "firebase_url": "https://cookshook-default-rtdb.firebaseio.com",
+    "project_id": "cookshook",
+    "storage_bucket": "cookshook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199522142224:android:ecf3886380350952736295",
+        "android_client_info": {
+          "package_name": "com.example.cookshook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199522142224-1kr0vp7ao13p44a3t54f3qdf8gfc3k6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cookshook",
+            "certificate_hash": "31f4cefbc39e42fc116dfcdc186f3c461e1d4c4a"
+          }
+        },
+        {
+          "client_id": "199522142224-1i2pkaicr3v12709n6uarlqmba5l8b66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDodGEkP79nVYAd_91G9jwRlnCGR3wRATQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199522142224-1i2pkaicr3v12709n6uarlqmba5l8b66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
